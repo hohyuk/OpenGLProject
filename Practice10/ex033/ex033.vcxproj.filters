@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.Main">
+      <UniqueIdentifier>{4fdad845-e7ec-46b6-a578-60de603365d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.FrameWork">
+      <UniqueIdentifier>{c4318046-2520-4148-a95f-dc68180c0c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SceneMgr">
+      <UniqueIdentifier>{e5aa5e54-4e5d-4de5-9a7b-a479c9065bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object">
+      <UniqueIdentifier>{aca2c035-3dfb-4941-ac25-cada07dcdfdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Common">
+      <UniqueIdentifier>{86ec42c0-4c40-4f6b-b387-1d96a4324359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\01.Ground">
+      <UniqueIdentifier>{64d08442-1b4e-4f57-bd2d-dd8d3b42549b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\02.Pyramid">
+      <UniqueIdentifier>{8c7eb088-9a11-474b-9e82-671828a143b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\03.Snow">
+      <UniqueIdentifier>{da3b51e1-9fc7-4057-a7fc-a3dea4bfedf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\04.Robot">
+      <UniqueIdentifier>{2c323e49-132d-4ed1-b528-19050f1c488c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\05.Lighting">
+      <UniqueIdentifier>{5c45ae6d-35b7-402f-8cf0-7438cc44a376}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main33.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CGLFrameWork.cpp">
+      <Filter>01.FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>03.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CGround.cpp">
+      <Filter>03.Object\01.Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="CRobot.cpp">
+      <Filter>03.Object\04.Robot</Filter>
+    </ClCompile>
+    <ClCompile Include="CPyramid.cpp">
+      <Filter>03.Object\02.Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="CSnow.cpp">
+      <Filter>03.Object\03.Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="CLighting.cpp">
+      <Filter>03.Object\05.Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>02.SceneMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Refer.h">
+      <Filter>99.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CGLFrameWork.h">
+      <Filter>01.FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>03.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CGround.h">
+      <Filter>03.Object\01.Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="CRobot.h">
+      <Filter>03.Object\04.Robot</Filter>
+    </ClInclude>
+    <ClInclude Include="CPyramid.h">
+      <Filter>03.Object\02.Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="CSnow.h">
+      <Filter>03.Object\03.Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="CLighting.h">
+      <Filter>03.Object\05.Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>02.SceneMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

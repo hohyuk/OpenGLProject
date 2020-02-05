@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.Main">
+      <UniqueIdentifier>{96ddc221-4b19-4aa6-ac77-7b481cfa1280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.FrameWork">
+      <UniqueIdentifier>{061a5f3b-2910-4e9e-abc7-468241f5b8fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SceneMgr">
+      <UniqueIdentifier>{b91f7218-5f0c-4a89-b3a7-87111f2dd8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object">
+      <UniqueIdentifier>{72fb82c6-04f9-42f0-9f88-31e600be6582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Common">
+      <UniqueIdentifier>{1cc32101-1a9d-49d0-a061-0ea2996b5f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\01.CGround">
+      <UniqueIdentifier>{abaf52ca-7285-47a7-986b-fdc52b5d824b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\02.Pyramid">
+      <UniqueIdentifier>{10bf0229-163e-4900-a62a-2e804da17b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\03.Snow">
+      <UniqueIdentifier>{51c20fdb-544f-4b45-adb6-14437f5bbb88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\04.Lighting">
+      <UniqueIdentifier>{e37ce1d6-27b3-4021-b27d-26ac3f5a47a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\05.Robot">
+      <UniqueIdentifier>{c4c3cbac-3d14-4644-8019-9ac6916f5678}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main31.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CGLFrameWork.cpp">
+      <Filter>01.FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>02.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>03.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CGround.cpp">
+      <Filter>03.Object\01.CGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CPyramid.cpp">
+      <Filter>03.Object\02.Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="CSnow.cpp">
+      <Filter>03.Object\03.Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="CLighting.cpp">
+      <Filter>03.Object\04.Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="CRobot.cpp">
+      <Filter>03.Object\05.Robot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Refer.h">
+      <Filter>99.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CGLFrameWork.h">
+      <Filter>01.FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>02.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>03.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CGround.h">
+      <Filter>03.Object\01.CGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CPyramid.h">
+      <Filter>03.Object\02.Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="CSnow.h">
+      <Filter>03.Object\03.Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="CLighting.h">
+      <Filter>03.Object\04.Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="CRobot.h">
+      <Filter>03.Object\05.Robot</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

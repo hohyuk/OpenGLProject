@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.Main">
+      <UniqueIdentifier>{6fe26390-0930-4538-a092-d6a2f8a5ab68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.FrameWork">
+      <UniqueIdentifier>{44a90244-0639-47cc-a273-463709a58949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SceneMgr">
+      <UniqueIdentifier>{77e5bcbd-2d81-4483-8e47-49884c6adb1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object">
+      <UniqueIdentifier>{3e70240c-f02d-4b12-9b42-8db32e046fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Common">
+      <UniqueIdentifier>{edafd53a-ed28-4499-a3c4-f49905f4e24c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\01.Quad">
+      <UniqueIdentifier>{9f6bd702-3f9f-49f8-b737-3e21fb5ac110}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main25.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CGLFrameWork.cpp">
+      <Filter>01.FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>02.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>03.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuad.cpp">
+      <Filter>03.Object\01.Quad</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Refer.h">
+      <Filter>99.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CGLFrameWork.h">
+      <Filter>01.FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>02.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>03.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuad.h">
+      <Filter>03.Object\01.Quad</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

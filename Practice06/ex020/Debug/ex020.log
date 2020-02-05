@@ -1,0 +1,14 @@
+﻿  stdafx.cpp
+  main20.cpp
+c:\users\호혁\documents\visual studio 2017\projects\practice06\ex020\cglframework.h(60): warning C4150: 불완전한 형식 'CScene'에 대한 포인터를 삭제했습니다. 소멸자가 호출되지 않습니다.
+  c:\users\호혁\documents\visual studio 2017\projects\practice06\ex020\cglframework.h(3): note: 'CScene' 선언을 참조하십시오.
+  CTorus.cpp
+  CSphere.cpp
+  CScene.cpp
+  CGround.cpp
+  CGLFrameWork.cpp
+  CDoor.cpp
+  CCube.cpp
+  CCone.cpp
+  코드를 생성하고 있습니다...
+  ex020.vcxproj -> C:\Users\호혁\Documents\Visual Studio 2017\Projects\Practice06\Debug\ex020.exe

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.Main">
+      <UniqueIdentifier>{dddbef98-da19-4a62-b897-295f3ab5a4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.FrameWork">
+      <UniqueIdentifier>{a63f107d-2974-4a7d-acec-1cd5b255e289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SceneMgr">
+      <UniqueIdentifier>{fee0dae1-ba87-406e-8e69-7c2759e49a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object">
+      <UniqueIdentifier>{0bb3ac01-35be-44ad-884c-9be2c61fd433}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Common">
+      <UniqueIdentifier>{a10203bf-429e-477a-bffe-c5f354f08aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\01.Ground">
+      <UniqueIdentifier>{5b9b40f9-12d4-42e4-bc68-a0068844ac67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\02.Cone">
+      <UniqueIdentifier>{d6c34bd7-876f-4851-96d0-dfe24b9030cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\03.Cube">
+      <UniqueIdentifier>{8d73a8f9-3206-4af6-9aa9-5ebbde5ec2dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\04.Door">
+      <UniqueIdentifier>{8bbc91d8-34f1-4f0b-a630-972fb1506587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\05.Sphere">
+      <UniqueIdentifier>{78ec0628-8455-47b6-9280-f5233115dbf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\06.Torus">
+      <UniqueIdentifier>{599771bf-1f69-4c5f-bf0a-5aad793dee24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CGLFrameWork.cpp">
+      <Filter>01.FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>03.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>02.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CGround.cpp">
+      <Filter>03.Object\01.Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="CCone.cpp">
+      <Filter>03.Object\02.Cone</Filter>
+    </ClCompile>
+    <ClCompile Include="CCube.cpp">
+      <Filter>03.Object\03.Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="CDoor.cpp">
+      <Filter>03.Object\04.Door</Filter>
+    </ClCompile>
+    <ClCompile Include="CSphere.cpp">
+      <Filter>03.Object\05.Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="CTorus.cpp">
+      <Filter>03.Object\06.Torus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CGLFrameWork.h">
+      <Filter>01.FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>03.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>02.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Refer.h">
+      <Filter>99.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CGround.h">
+      <Filter>03.Object\01.Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="CCone.h">
+      <Filter>03.Object\02.Cone</Filter>
+    </ClInclude>
+    <ClInclude Include="CCube.h">
+      <Filter>03.Object\03.Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="CDoor.h">
+      <Filter>03.Object\04.Door</Filter>
+    </ClInclude>
+    <ClInclude Include="CSphere.h">
+      <Filter>03.Object\05.Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="CTorus.h">
+      <Filter>03.Object\06.Torus</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

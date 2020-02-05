@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00.Main">
+      <UniqueIdentifier>{0c5008f1-7010-4d82-a1f9-efac0336e9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.FrameWork">
+      <UniqueIdentifier>{7e769dab-0b38-4b42-a640-4e282fd2e76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.SceneMgr">
+      <UniqueIdentifier>{6c99d93e-2a91-4e0d-928a-d8fb91cade0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object">
+      <UniqueIdentifier>{72428f04-9082-494b-ac38-5ec9ab22f74f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Common">
+      <UniqueIdentifier>{d0eac857-9237-48aa-8798-b2514fae1809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\01.Quad">
+      <UniqueIdentifier>{b5b509f8-f8a2-415b-8332-1512ef6842c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\02.Robot">
+      <UniqueIdentifier>{3e701753-2a65-46b9-be87-5b8526d7133d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main26.cpp">
+      <Filter>00.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Common</Filter>
+    </ClCompile>
+    <ClCompile Include="CGLFrameWork.cpp">
+      <Filter>01.FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="CObj.cpp">
+      <Filter>03.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneMgr.cpp">
+      <Filter>02.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuad.cpp">
+      <Filter>03.Object\01.Quad</Filter>
+    </ClCompile>
+    <ClCompile Include="CRobot.cpp">
+      <Filter>03.Object\02.Robot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Refer.h">
+      <Filter>99.Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CGLFrameWork.h">
+      <Filter>01.FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="CObj.h">
+      <Filter>03.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneMgr.h">
+      <Filter>02.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuad.h">
+      <Filter>03.Object\01.Quad</Filter>
+    </ClInclude>
+    <ClInclude Include="CRobot.h">
+      <Filter>03.Object\02.Robot</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

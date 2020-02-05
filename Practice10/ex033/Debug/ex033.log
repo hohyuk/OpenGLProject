@@ -1,0 +1,3 @@
+﻿  CGround.cpp
+c:\users\호혁\desktop\practice10\ex033\cground.cpp(59): warning C4244: '인수': 'int'에서 'GLfloat'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  ex033.vcxproj -> C:\Users\호혁\Desktop\Practice10\Debug\ex033.exe
